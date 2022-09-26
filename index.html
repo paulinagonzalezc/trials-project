@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Hat Shop</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header id="header">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKEMtilbnEFpJNfwK27k9QYrSZbo65dkQVAw&usqp=CAU"
+            id="header-img" />
+        <h1>Original Hats</h1>
+        <nav id="nav-bar">
+            <ul>
+                <li>
+                    <a class="nav-link" href="#products-showcase">Product Video</a>
+                </li>
+                <li><a class="nav-link" href="#submit-email">Email</a></li>
+                <li><a class="nav-link" href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="products-showcase">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/7bBV_vGoqk4"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+    <div id="submit-email">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <label>Register to our Hats Newsletter!</label>
+            <input id="email" type="email" name="email" placeholder="Enter your email address"></input>
+            <button id="submit" type="submit">Submit</button>
+        </form>
+    </div>
+    <div id="contact"></div>
+    <style>
+        @media (max-width: 600px) {
+            body{
+              background-color: antiquewhite;
+            }
+            .submit-email{
+              display: flex;
+            }
+        }
+
+     </style>
+
+
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <!--
+
+    Hello Camper!
+
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+
+    - The freeCodeCamp Team
+
+    -->
+    <script src="js/index.js"></script>
+</body>
+
+</html>
